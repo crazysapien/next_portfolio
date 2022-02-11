@@ -76,7 +76,7 @@ export default function Home({ projects }) {
           </div>
           <div className='my-12 flex flex-wrap items-center justify-between'>
             <div className='w-56 mb-4'><img src="/../undraw_dev_productivity_umsq.svg" alt="" /> </div>
-            <div className={`max-w-md font-medium text-lg ${darktheme ? 'text-gray-50' : 'text-slate-900'} `}>Not added yet. <br /> <Link href={'/about'}><a className="text-pink-500 underline">read more...</a></Link></div>
+            <div className={`max-w-md font-medium text-lg ${darktheme ? 'text-gray-50' : 'text-slate-900'} `}>I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn new skills that helped me to do better work.<br /> <Link href={'/about'}><a className="text-pink-500 underline">read more...</a></Link></div>
           </div>
         </div>
 

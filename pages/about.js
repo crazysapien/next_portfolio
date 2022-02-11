@@ -30,7 +30,7 @@ export default function About() {
                         About.
                     </div>
                     <div className={`py-12 max-w-4xl mx-auto text-xl font-medium ${darktheme ? 'text-gray-100' : 'text-slate-900'}`}>
-                        Not added yet.
+                    I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn new skills that helped me to do better work.
                     </div>
                 </div>
             </div>
