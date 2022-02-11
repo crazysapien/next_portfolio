@@ -24,8 +24,6 @@ export default function Blog({ blog }) {
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-                <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
             </Head>
             <Navbar />
             <div className={darktheme ? 'bg-slate-900' : 'bg-white'}>
@@ -33,11 +31,11 @@ export default function Blog({ blog }) {
                     <div className={`text-5xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
                         Blog.
                     </div>
-                    <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 my-12">
+                    <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 py-12">
                         {blog?.map((elem, index) => {
                             return <BlogCard key={index} title={elem.title} thumbnail={elem.thumbnail} link={elem.link} />
                         })}
-                        {!blog.length && <div className={darktheme ? 'text-gray-50' : 'text-slate-900'}>no blogs yet.</div>}
+                        {!blog.length && <div className={`font-medium text-xl ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>no blogs yet.</div>}
                     </div>
                 </div>
             </div>
@@ -49,7 +47,7 @@ export default function Blog({ blog }) {
 
 // fetch my blogs from medium.com's API 
 export async function getServerSideProps() {
-    const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mohdshaim');
+    const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@aniketz');
     const data = await res.json();
     const blog = data?.items;
     return { props: { blog } }

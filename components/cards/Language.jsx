@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import themeContext from "../../context/themeContext"
+import Image from "next/image";
 
 export default function LanguageCard({ image, name }) {
 
