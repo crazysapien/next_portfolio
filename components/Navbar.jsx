@@ -15,7 +15,7 @@ export default function Navbar() {
             <nav className="w-screen py-2 fixed top-0 z-10 bg-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-lg">
 
                 <div className="max-w-6xl px-2 gap-4 mx-auto h-full flex items-center justify-between">
-                    <div className={`text-2xl font-medium ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}><Link href={'/'}>Portfolio</Link></div>
+                    <div className={`text-2xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}><Link href={'/'}>Portfolio</Link></div>
 
                     <div className={`flex-1 font-medium hidden md:flex gap-4 ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>
                         <Link href="/"><a>Home</a></Link>

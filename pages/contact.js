@@ -44,7 +44,7 @@ export default function Contact() {
                 <div className="max-w-6xl min-h-screen mx-auto pt-24 px-4 gap-4 flex flex-wrap items-center justify-between">
                     <div>
                         <div className={`text-4xl md:text-6xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
-                            Let's work together.
+                            Let&apos;s work together.
                         </div>
                         <div className="flex mx-auto max-w-xs my-8 justify-around">
                             <a href="https://github.com/crazysapien" target={'_blank'} rel='noreferrer noopener'>
