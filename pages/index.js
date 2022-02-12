@@ -23,7 +23,7 @@ export default function Home({ projects }) {
         <title>Portfolio</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Protfolio website of Mohammad Shaim" />
+        <meta name="description" content="Portfolio website of Mohammad Shaim" />
         <meta name="keywords" content="HTML, CSS, JavaScript , react js , next js , prortfolio website" />
         <meta name="author" content="mohammad shaim" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,7 +53,7 @@ export default function Home({ projects }) {
             </div>
           </div>
           <div className={`w-56 h-56 text-white text-center rounded-full ${darktheme ? 'bg-gray-50' : 'bg-slate-900'} shadow-lg`}>
-            <Image src="/me.png" width={400} height={400} />
+            <Image src="/me.png" width={1000} height={1000} />
           </div>
         </div>
 
@@ -76,20 +76,7 @@ export default function Home({ projects }) {
           </div>
           <div className='my-12 flex flex-wrap items-center justify-between'>
             <div className='w-56 mb-4'><img src="/../undraw_dev_productivity_umsq.svg" alt="" /> </div>
-            <div className={`max-w-md font-medium text-lg ${darktheme ? 'text-gray-50' : 'text-slate-900'} `}>I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn new skills that helped me to do better work.<br /> <Link href={'/about'}><a className="text-pink-500 underline">read more...</a></Link></div>
-          </div>
-        </div>
-
-        <div className='max-w-6xl mx-auto px-2 mb-16'>
-          <div className={`text-4xl md:text-6xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
-            Services.
-          </div>
-          <div className='my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  container gap-8 justify-between items-center'>
-            {services?.map((elem, index) => {
-              return (
-                <ServiceCard key={index} title={elem.name} />
-              )
-            })}
+            <div className={`max-w-md font-medium text-lg ${darktheme ? 'text-gray-50' : 'text-slate-900'} `}>I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn that helped me to do better work.<br /> <Link href={'/about'}><a className="text-pink-500 underline">more...</a></Link></div>
           </div>
         </div>
 
@@ -181,32 +168,20 @@ const lang = [
 ]
 
 
-const services = [
-  {
-    name: 'Front end development',
-  },
-  {
-    name: 'Landing pages',
-  },
-  {
-    name: 'Static and dynamic pages',
-  },
-]
-
 const testimonial = [
   {
     name: 'Lance Jarvis',
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis doloremque molestias, nam dolorem libero repudiandae fuga. Quae deserunt rerum id.',
-    pos: 'General Manager'
+    desc: 'He is a great person to work with. will look forward to working with him again.',
+    pos:'Sr. developer'
   },
   {
     name: 'Lance Jarvis',
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis doloremque molestias, nam dolorem libero repudiandae fuga. Quae deserunt rerum id.',
-    pos: 'General Manager'
+    desc: 'He is a great person to work with. will look forward to working with him again.',
+    pos:'Sr. developer'
   },
   {
     name: 'Lance Jarvis',
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis doloremque molestias, nam dolorem libero repudiandae fuga. Quae deserunt rerum id.',
-    pos: 'General Manager'
+    desc: 'He is a great person to work with. will look forward to working with him again.',
+    pos:'Sr. developer'
   },
 ]

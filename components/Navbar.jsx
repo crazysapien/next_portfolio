@@ -29,23 +29,24 @@ export default function Navbar() {
                         <button onClick={toggleTheme} className="w-10 flex items-center justify-center h-10 shadow-lg rounded-lg">
                             {!darktheme ? <Dark className='w-5' fill='#34495E' /> : <Light className='w-5' fill='#F9FAFB' />}
                         </button>
+                        
                         <button onClick={() => { setmobilenav(!mobilenav) }} className="w-10 h-10 ml-2 flex items-center justify-center rounded-lg md:hidden shadow-lg">
-                            <Bars className='w-5' fill={darktheme ? '#F9FAFB' : '#34495E'} />
+                            <Bars className='w-5 transition duration-300' fill={darktheme ? '#F9FAFB' : '#34495E'} />
                         </button>
-                    </div>
+                    </div >
 
-                </div>
+                </div >
 
-                {mobilenav &&
-                    <div className={`flex flex-col font-medium py-2 px-4 gap-2 ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>
-                        <Link href="/"><a onClick={() => { setmobilenav(!mobilenav) }} className="p-2">Home</a></Link>
-                        <Link href="/about"><a onClick={() => { setmobilenav(!mobilenav) }} className="p-2">About</a></Link>
-                        <Link href="/projects"><a onClick={() => { setmobilenav(!mobilenav) }} className="p-2">Projects</a></Link>
-                        <Link href="/blog"><a onClick={() => { setmobilenav(!mobilenav) }} className="p-2">Blog</a></Link>
-                        <Link href="/contact"><a onClick={() => { setmobilenav(!mobilenav) }} className="p-2">Contact</a></Link>
-                    </div>
-                }
-            </nav>
+        { mobilenav && <div className={`flex flex-col font-medium py-2 px-4 gap-2 ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>
+
+            <Link href="/"><a onClick={() => { setmobilenav(!mobilenav) }} className={`p-2 `}>Home</a></Link>
+            <Link href="/about"><a onClick={() => { setmobilenav(!mobilenav) }} className={`p-2 `}>About</a></Link>
+            <Link href="/projects"><a onClick={() => { setmobilenav(!mobilenav) }} className={`p-2 `}>Projects</a></Link>
+            <Link href="/blog"><a onClick={() => { setmobilenav(!mobilenav) }} className={`p-2 `}>Blog</a></Link>
+            <Link href="/contact"><a onClick={() => { setmobilenav(!mobilenav) }} className={`p-2`}>Contact</a></Link>
+        </div>
+}
+            </nav >
         </>
     )
 }

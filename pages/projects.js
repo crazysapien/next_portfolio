@@ -15,7 +15,7 @@ export default function Projects({ projects }) {
                 <title>My projects</title>
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta name="description" content="Protfolio website of Mohammad Shaim" />
+                <meta name="description" content="Portfolio website of Mohammad Shaim" />
                 <meta name="keywords" content="HTML, CSS, JavaScript , react js , next js , prortfolio website" />
                 <meta name="author" content="mohammad shaim" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
