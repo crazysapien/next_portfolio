@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useContext, useState } from "react";
 import Dark from '../components/logo/Dark'
-import Bars from '../components/logo/Bars'
 import Light from '../components/logo/Light'
 import themeContext from "../context/themeContext";
 
