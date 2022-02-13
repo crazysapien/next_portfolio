@@ -16,8 +16,8 @@ export default function About() {
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="description" content="Portfolio website of Mohammad Shaim" />
-                <meta name="keywords" content="HTML, CSS, JavaScript , react js , next js , prortfolio website" />
-                <meta name="author" content="mohammad shaim" />
+                <meta name="keywords" content="HTML, CSS, JavaScript , react js , next js , portfolio website" />
+                <meta name="author" content="Mohammad shaim" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -34,7 +34,7 @@ export default function About() {
                         About.
                     </div>
                     <div className={`py-12 max-w-4xl mx-auto text-xl font-medium ${darktheme ? 'text-gray-100' : 'text-slate-900'}`}>
-                        <div className={`text-center italic text-2xl ${darktheme?'text-gray-300':'text-gray-500'}`}>“I think that’s the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.” <br />Elon Musk</div>
+                        <div className={`text-center italic text-2xl ${darktheme ? 'text-gray-300' : 'text-gray-500'}`}>“I think that’s the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.” <br />Elon Musk</div>
 
                         <br />
                         Hi i am mohammad shaim , a 18 years old web developer and a tech enthusiast . Every day i wake up with the idea to learn something new and keep hustling . <br />

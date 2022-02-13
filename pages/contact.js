@@ -29,8 +29,8 @@ export default function Contact() {
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="description" content="Portfolio website of Mohammad Shaim" />
-                <meta name="keywords" content="HTML, CSS, JavaScript , react js , next js , prortfolio website" />
-                <meta name="author" content="mohammad shaim" />
+                <meta name="keywords" content="HTML, CSS, JavaScript , react js , next js , portfolio website" />
+                <meta name="author" content="Mohammad shaim" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
