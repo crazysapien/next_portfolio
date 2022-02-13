@@ -30,7 +30,7 @@ export default function About() {
 
             <div className={`min-h-screen ${darktheme ? 'bg-slate-900' : 'bg-white'}`}>
                 <div className="max-w-6xl mx-auto pt-24 px-4 ">
-                    <div className={`text-5xl font-bold ${darktheme ? 'text-gray-100' : 'text-slate-900'} underline decoration-pink-500`}>
+                    <div className={`text-5xl text-center sm:text-left font-bold ${darktheme ? 'text-gray-100' : 'text-slate-900'} underline decoration-pink-500`}>
                         About.
                     </div>
                     <div className={`py-12 max-w-4xl mx-auto text-xl font-medium ${darktheme ? 'text-gray-100' : 'text-slate-900'}`}>

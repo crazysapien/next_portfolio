@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
-import ServiceCard from '../components/cards/Service'
-import BlogCard from '../components/cards/Blog'
 import Testimonial from '../components/cards/Testimonial'
 import Footer from '../components/Footer'
 import Link from 'next/link'
@@ -46,7 +44,7 @@ export default function Home({ projects }) {
             </div>
             <div>
               <Link href={'/contact'}>
-                <button className="bg-pink-500 transition ease-linear duration-500 flex items-center gap-2 hover:bg-pink-700 text-white font-bold py-4 px-8 rounded">
+                <button className="bg-pink-500 transition ease-linear duration-200 flex items-center gap-2 hover:bg-pink-700 hover:scale-105 text-white font-bold py-4 px-8 rounded">
                   <Send className='w-4' fill={'#F9FAFB'} />
                   Say hello
                 </button>
@@ -59,7 +57,7 @@ export default function Home({ projects }) {
         </div>
 
         <div className='max-w-6xl mx-auto px-2 mb-16'>
-          <div className={`text-4xl md:text-6xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
+          <div className={`text-4xl md:text-6xl text-center sm:text-left font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
             Tech Stack.
           </div>
           <div className='my-12 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 items-center gap-4 '>
@@ -72,22 +70,22 @@ export default function Home({ projects }) {
         </div>
 
         <div className='max-w-6xl mx-auto px-2 mb-16'>
-          <div className={`text-4xl md:text-6xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
+          <div className={`text-4xl md:text-6xl text-center sm:text-left font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
             About me.
           </div>
           <div className='my-12 flex flex-wrap items-center justify-between'>
             <div className='w-56 mb-4'><img src="/../undraw_dev_productivity_umsq.svg" alt="" /> </div>
-            <div className={`max-w-md font-medium text-lg ${darktheme ? 'text-gray-50' : 'text-slate-900'} `}>I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn that helped me to do better work.<br /> <Link href={'/about'}><a className="text-pink-500 underline">more...</a></Link></div>
+            <div className={`max-w-md text-center sm:text-left font-medium text-lg ${darktheme ? 'text-gray-50' : 'text-slate-900'} `}>I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. This passion led me to challenge myself daily and learn that helped me to do better work.<br /> <Link href={'/about'}><a className="text-pink-500 underline">more...</a></Link></div>
           </div>
         </div>
 
 
         <div className='max-w-6xl mx-auto px-2 mb-16'>
           <div className='flex justify-between items-center'>
-            <div className={`text-4xl md:text-6xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
+            <div className={`text-4xl md:text-6xl text-center sm:text-left font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
               Projects.
             </div>
-            <Link href={'/projects'}><a className='bg-pink-500 transition ease-linear duration-500 flex items-center gap-2 hover:bg-pink-700 text-white font-bold py-4 px-8 rounded'>show all</a></Link>
+            <Link href={'/projects'}><a className='bg-pink-500 transition ease-linear duration-200 flex items-center gap-2 hover:bg-pink-700 hover:scale-105 text-white font-bold py-4 px-8 rounded'>show all</a></Link>
           </div>
 
           <div className='my-12'>
@@ -106,7 +104,7 @@ export default function Home({ projects }) {
         </div>
 
         <div className='max-w-6xl mx-auto px-2 pb-16'>
-          <div className={`text-4xl md:text-6xl font-bold underline decoration-pink-500 ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>
+          <div className={`text-4xl md:text-6xl text-center sm:text-left font-bold underline decoration-pink-500 ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>
             Testimonials.
           </div>
           <div className='my-12'>
@@ -123,7 +121,6 @@ export default function Home({ projects }) {
         </div>
 
       </main>
-      <Project/>
       <Footer />
     </>
 

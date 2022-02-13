@@ -43,7 +43,7 @@ export default function Contact() {
             <div className={darktheme ? 'bg-slate-900' : 'bg-white'}>
                 <div className="max-w-6xl min-h-screen mx-auto pt-24 px-4 gap-4 flex flex-wrap items-center justify-between">
                     <div>
-                        <div className={`text-4xl md:text-6xl font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
+                        <div className={`text-4xl md:text-6xl text-center sm:text-left font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
                             Let&apos;s work together.
                         </div>
                         <div className="flex mx-auto max-w-xs my-8 justify-around">
