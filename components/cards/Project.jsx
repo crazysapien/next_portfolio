@@ -3,7 +3,7 @@ return(
 <>
 <div className="min-h-[16rem] mx-auto max-w-xs relative rounded-lg bg-black overflow-hidden my-4 ">
 <img src={thumbnail} className="max-w-xs h-64 object-cover opacity-50 inset-x-0" alt="" />
-<div className="absolute bottom-0 text-xl font-medium py-4 px-2 transition-all ease-in duration-150 hover:-translate-y-2 text-gray-50 ">{title}</div>
+<div className="absolute max-w-xs bottom-0 text-xl font-medium py-4 px-2 transition-all ease-in duration-150 hover:-translate-y-2 text-gray-50 ">{title}</div>
 </div>
 </>
 )
