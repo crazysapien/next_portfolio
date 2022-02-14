@@ -8,7 +8,7 @@ import themeContext from "../context/themeContext";
 import Github from "../components/logo/Github";
 import Twitter from "../components/logo/Twitter";
 import Instagram from "../components/logo/Instagram";
-import LinkedIn from "../components/logo/LinkedIn";
+import Dev from "../components/logo/Dev";
 
 
 export default function Contact() {
@@ -47,16 +47,16 @@ export default function Contact() {
                             Let&apos;s work together.
                         </div>
                         <div className="flex mx-auto max-w-xs my-8 justify-around">
-                            <a href="https://github.com/crazysapien" target={'_blank'} rel='noreferrer noopener'>
+                            <a href="https://github.com/crazysapien" target={'_blank'} rel='noreferrer noopener' className="hover:scale-105">
                                 <Github className='w-5' fill={darktheme ? '#F9FAFB' : '#34495E'} />
                             </a>
-                            <a href="https://www.instagram.com/crazy.s.apien/" target={'_blank'} rel='noreferrer noopener'>
+                            <a href="https://www.instagram.com/crazy.s.apien/" target={'_blank'} rel='noreferrer noopener' className="hover:scale-105">
                                 <Instagram className='w-5' fill={darktheme ? '#F9FAFB' : '#34495E'} />
                             </a>
-                            <a href="https://www.linkedin.com/in/mohd-shaim-20ms03" target={'_blank'} rel='noreferrer noopener'>
-                                <LinkedIn className='w-5' fill={darktheme ? '#F9FAFB' : '#34495E'} />
+                            <a href="https://dev.to/crazysapien" target={'_blank'} rel='noreferrer noopener' className="hover:scale-105">
+                                <Dev className='w-5' fill={darktheme ? '#F9FAFB' : '#34495E'} />
                             </a>
-                            <a href="https://twitter.com/Crazy_sapien_" target={'_blank'} rel='noreferrer noopener'>
+                            <a href="https://twitter.com/Crazy_sapien_" target={'_blank'} rel='noreferrer noopener' className="hover:scale-105">
                                 <Twitter className='w-5' fill={darktheme ? '#F9FAFB' : '#34495E'} />
                             </a>
                         </div>

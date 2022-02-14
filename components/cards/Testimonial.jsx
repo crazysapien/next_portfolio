@@ -10,7 +10,7 @@ export default function Testimonial({ text, name, pos }) {
             <div className={`max-w-xs my-4 mx-auto flex-col p-4 shadow-lg rounded-lg ${darktheme ? 'bg-gray-500 bg-opacity-10' : 'shadow-lg'}`}>
 
                 <div className="w-8">
-                    <Quote fill={darktheme ? '#F9FAFB' : '#34495E'} />
+                    <Quote fill={'#EC4899'} />
                 </div>
 
                 <div className={`${darktheme ? 'text-gray-50' : 'text-gray-900'} font-medium border-b-2 py-2 my-4`}>

@@ -33,7 +33,7 @@ export default function Blog({ blog }) {
                     </div>
                     <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 py-12">
                         {blog?.map((elem, index) => {
-                            return <BlogCard key={index} title={elem.title} thumbnail={elem.thumbnail} link={elem.link} desc={elem.content} />
+                            return <BlogCard key={index} title={elem.title} thumbnail={elem.thumbnail} date={elem.pubDate} link={elem.link} desc={elem.content} />
                         })}
                         {!blog.length && <div className={`font-medium text-center sm:text-left text-xl ${darktheme ? 'text-gray-50' : 'text-slate-900'}`}>no blogs yet.</div>}
                     </div>

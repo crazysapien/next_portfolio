@@ -44,7 +44,7 @@ export default function Home({ projects }) {
             </div>
             <div>
               <Link href={'/contact'}>
-                <button className="bg-pink-500 transition ease-linear duration-200 flex items-center gap-2 hover:bg-pink-700 hover:scale-105 text-white font-bold py-4 px-8 rounded">
+                <button className="bg-gradient-to-r from-pink-600 to-rose-400 transition ease-linear duration-100 flex items-center gap-2 hover:scale-105 text-white font-bold py-4 px-8 rounded">
                   <Send className='w-4' fill={'#F9FAFB'} />
                   Say hello
                 </button>
@@ -85,7 +85,7 @@ export default function Home({ projects }) {
             <div className={`text-4xl md:text-6xl text-center sm:text-left font-bold ${darktheme ? 'text-gray-50' : 'text-slate-900'} underline decoration-pink-500`}>
               Projects.
             </div>
-            <Link href={'/projects'}><a className='bg-pink-500 transition ease-linear duration-200 flex items-center gap-2 hover:bg-pink-700 hover:scale-105 text-white font-bold py-4 px-8 rounded'>show all</a></Link>
+            <Link href={'/projects'}><a className='transition ease-linear duration-100 flex items-center gap-2 bg-gradient-to-r from-pink-600 to-rose-400 hover:scale-105 text-white font-bold py-4 px-8 rounded'>show all</a></Link>
           </div>
 
           <div className='my-12'>

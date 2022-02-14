@@ -34,7 +34,7 @@ export default function About() {
                         About.
                     </div>
                     <div className={`py-12 max-w-4xl mx-auto text-xl font-medium ${darktheme ? 'text-gray-100' : 'text-slate-900'}`}>
-                        <div className={`text-center italic text-2xl ${darktheme ? 'text-gray-300' : 'text-gray-500'}`}>“I think that’s the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.” <br />Elon Musk</div>
+                        <div className={`text-center italic text-2xl ${darktheme ? 'text-gray-300' : 'text-gray-500'}`}>“I think that’s the single best piece of advice: constantly think about how you could be doing things better and questioning yourself.” <br />- Elon Musk</div>
 
                         <br />
                         Hi i am mohammad shaim , a 18 years old web developer and a tech enthusiast . Every day i wake up with the idea to learn something new and keep hustling . <br />
@@ -92,7 +92,7 @@ export const options = {
             max: 16,
             stepSize: 2,
             showLabelBackdrop: false,
-            backdropColor: "rgba(203, 197, 11, 1)"
+            backdropColor: "rgba(203, 197, 11, 1)",
         },
         angleLines: {
             color: "rgba(255, 255, 255, .3)",
@@ -101,6 +101,6 @@ export const options = {
         gridLines: {
             color: "rgba(255, 255, 255, .3)",
             circular: true
-        }
+        },
     }
 };
