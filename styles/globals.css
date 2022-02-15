@@ -13,12 +13,10 @@ html {
 
   html::-webkit-scrollbar {
     width: 10px;
-    border-radius: 20px;
   }
 
   html::-webkit-scrollbar-thumb {
     background-color: #EC4899;
-    border-radius: 50px;
   }
 
   html::-webkit-scrollbar-thumb:hover {
@@ -28,6 +26,4 @@ html {
   html::-webkit-scrollbar-track {
     background-color: #d1d5db;
   }
-
-  /* #F3F4F6 */
 

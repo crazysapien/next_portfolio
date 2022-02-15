@@ -46,7 +46,7 @@ export default function Blog({ blog }) {
 
 
 // fetch my blogs from medium.com's API 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mohdshaim');
     const data = await res.json();
     const blog = data?.items;

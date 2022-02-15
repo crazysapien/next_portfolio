@@ -49,7 +49,7 @@ export default function Projects({ projects }) {
 }
 
 // fetching projects from medium.com's API 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const res = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mohdshaim48');
     const data = await res.json();
     const projects = data?.items;
