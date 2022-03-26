@@ -1,10 +1,7 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import Head from 'next/head'
 import { useContext } from "react";
 import themeContext from "../context/themeContext";
-import Radarchart from "../components/cards/Radarchart";
-
+import { Footer , Navbar , Radarchart } from "../components";
 
 export default function About() {
 

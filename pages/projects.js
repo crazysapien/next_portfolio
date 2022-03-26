@@ -1,9 +1,7 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import { useContext } from "react";
 import Head from 'next/head'
 import themeContext from "../context/themeContext";
-import Project from "../components/cards/Project";
+import { Footer,Navbar,Project } from "../components";
 
 export default function Projects({ projects }) {
 

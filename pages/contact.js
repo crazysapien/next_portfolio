@@ -1,14 +1,8 @@
 import { useContext, useState } from "react";
 import Head from 'next/head';
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import themeContext from "../context/themeContext";
+import { Footer,Navbar,Github,Twitter,Instagram,Dev } from "../components";
 
-// logo 
-import Github from "../components/logo/Github";
-import Twitter from "../components/logo/Twitter";
-import Instagram from "../components/logo/Instagram";
-import Dev from "../components/logo/Dev";
 
 
 export default function Contact() {

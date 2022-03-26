@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import { useContext } from 'react';
-import BlogCard from '../components/cards/Blog';
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import themeContext from '../context/themeContext';
+import { Footer , Navbar , BlogCard } from '../components';
 
 export default function Blog({ blog }) {
 
